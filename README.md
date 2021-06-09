@@ -32,3 +32,7 @@ rustflags = ["-C", "embed-bitcode"]
 #rustflags = ["-C", "embed-bitcode", "-C", "prefer-dynamic"]
 ```
 * 下载github代码，放到openwrt的package某目录下
+```
+https://github.com/likon/hello-rust
+```
+然后make menuconfig应该会出现hello-rust了。
