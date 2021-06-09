@@ -1,0 +1,9 @@
+
+[build]
+target = "mipsel-unknown-linux-gnu"
+
+[target.mipsel-unknown-linux-gnu]
+linker = "mipsel-openwrt-linux-uclibc-gcc"
+rustflags = ["-C", "embed-bitcode"]
+#rustflags = ["-C", "embed-bitcode", "-C", "prefer-dynamic"]
+
